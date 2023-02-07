@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Text?>
+<?import org.kordamp.ikonli.javafx.FontIcon?>
+
+<BorderPane id="listaFavoritosS" fx:id="listaFavoritos" maxHeight="1.7976931348623157E308"
+            maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity"
+            xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.reproductorenterointerfaces1.controlersView.ListaFavoritosController">
+    <center>
+        <ListView  fx:id="listCancionesPrint" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+    </center>
+    <top>
+        <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER" id="hBox">
+            <children>
+                <Button fx:id="botonlista"  id="boton-lista" mnemonicParsing="false" >
+               <graphic>
+                  <FontIcon id="icono-buscar" />
+               </graphic></Button>
+                <TextField fx:id="busqueda" text=" " id="busqueda"/>
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="" />
+                <Button fx:id="botonBuscarPorArtista" id="boton-lista" mnemonicParsing="false" text="%boton.artistas" />
+                <Button fx:id="botonBuscarPorCancion" id="boton-lista" mnemonicParsing="false" text="%boton.nombrecanciones" />
+                <Button fx:id="filechooser" id="boton-lista" mnemonicParsing="false" text="Descargar del PC" />
+            </children>
+        </HBox>
+    </top>
+</BorderPane>

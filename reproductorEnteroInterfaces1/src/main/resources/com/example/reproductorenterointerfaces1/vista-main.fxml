@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.ToggleButton?>
+<?import org.kordamp.ikonli.javafx.FontIcon?>
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+            minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0"
+            xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.example.reproductorenterointerfaces1.controlersView.MainView">
+   <left>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER"  id="barraBotones ">
+
+         <children>
+            <ToggleButton id="botonOpcionReproductor" fx:id="botonOpcionReproductor" mnemonicParsing="false" prefHeight="59.0" prefWidth="102.0" >
+               <graphic>
+                  <FontIcon id="reproductor-buton-icon" />
+               </graphic></ToggleButton> />
+            <ToggleButton id="botonOpcionListaCanciones" fx:id="botonOpcionListaCanciones" mnemonicParsing="false" prefHeight="59.0" prefWidth="102.0">
+               <graphic>
+                  <FontIcon id="lista-buton-icon" />
+               </graphic></ToggleButton> />
+
+            <ToggleButton id="botonOpcionFavoritos" fx:id="botonOpcionFavoritos" mnemonicParsing="false"  prefHeight="59.0" prefWidth="102.0" >
+               <graphic>
+                  <FontIcon id="favoritos-buton-icon" />
+               </graphic></ToggleButton> />
+            <ToggleButton id="botonOpcionAyuda" fx:id="botonOpcionAyuda1" mnemonicParsing="false" prefHeight="59.0" prefWidth="102.0" >
+               <graphic>
+                  <FontIcon id="ayuda-buton-icon" />
+               </graphic></ToggleButton> />
+            <ToggleButton id="botonOpcionSalir" fx:id="botonOpcionSalir" mnemonicParsing="false" prefHeight="59.0" prefWidth="102.0" >
+               <graphic>
+                  <FontIcon id="salir-buton-icon" />
+               </graphic></ToggleButton> />
+         </children>
+      </VBox>
+
+
+
+   </left>
+   <center>
+      <BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <bottom>
+            <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+         </bottom>
+      </BorderPane>
+   </center>
+
+</BorderPane>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import org.kordamp.ikonli.javafx.FontIcon?>
+
+<FlowPane id="vistaReproductorS" fx:id="vistaReproductor" alignment="CENTER" maxHeight="1.7976931348623157E308"
+          maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity"
+          xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+          fx:controller="com.example.reproductorenterointerfaces1.controlersView.VistaReproductorController">
+    <children>
+        <VBox id="caset" prefHeight="241.0" prefWidth="196.0">
+            <children>
+                <ImageView fx:id="idPortadaImagen" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true"  />
+                <Label text="Cancion sonando: " />
+                <Label fx:id="idTituloLavel" text="Titulo" />
+                <Label fx:id="idNombreAlbun" text="Albun" />
+                <Label fx:id="idNombreArtistas" text="Artistas" />
+            </children>
+        </VBox>
+        <VBox id="reproductor" alignment="BOTTOM_CENTER" prefHeight="302.0" prefWidth="262.0">
+            <children>
+                <Slider fx:id="idSlider" max="100" />
+                <HBox alignment="TOP_CENTER" prefHeight="26.0" prefWidth="204.0">
+                    <children>
+                        <Button fx:id="buttonCancionAnterior" id="botonReproductorCentral"  >
+                     <graphic>
+                        <FontIcon id="iconoBotonAnterior" />
+                     </graphic></Button>
+                        <Button fx:id="buttonCancionPlay" id="botonReproductorCentral"  >
+                     <graphic>
+                        <FontIcon id="play-button-icon" />
+                     </graphic></Button>
+                        <Button fx:id="buttonCancionStop" id="botonReproductorCentral"  >
+                     <graphic>
+                        <FontIcon id="stop-button-icon" />
+                     </graphic></Button>
+                        <Button fx:id="buttonCancionNext" id="botonReproductorCentral" contentDisplay="CENTER" >
+                     <graphic>
+                        <FontIcon id="next-buton-icon" />
+                     </graphic></Button>
+                    </children>
+
+                </HBox>
+
+            </children>
+        </VBox>
+    </children>
+</FlowPane>

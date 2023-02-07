@@ -1,0 +1,345 @@
+
+/* lateral  --------------------------------------------------------------- */
+.root{
+    -fx-font-size: 14px;
+    -fx-font-family: sans-serif;
+    -fx-background-image: url("maderaFondo.jpg");
+    -fx-border-color:#664523;
+    -fx-border-width: 6px;
+
+}
+
+/* botones lateral  ---------------------------------------------------- */
+.toggle-button{
+    -fx-font-size: 16px;
+    -fx-padding: 15px 32px;
+    -fx-text-align: left;
+    -fx-text-fill:#262524;
+    -fx-border-color:#262524;
+    -fx-border-width: 3px;
+    -fx-font-size:40px;
+    -fx-text-align: start;
+    -fx-background-image: url("metal.jpg");
+}
+
+.toggle-button:selected{
+
+      -fx-font-size: 14px;
+      -fx-padding: 17px 32px;
+      -fx-text-align: center;
+      -fx-text-decoration: none;
+      -fx-border-color:#262524;
+      -fx-text-fill: #3636A8;
+      -fx-font-size:30px;
+
+      -fx-background-radius: 20px;
+      -fx-background-image: url("OscuroMetal.jpg");
+
+}
+
+.toggle-button:hover{
+
+      -fx-font-size: 14px;
+      -fx-padding: 17px 32px;
+      -fx-text-align: center;
+      -fx-text-decoration: none;
+      -fx-border-color:#262524;
+      -fx-text-fill: #3636A8;
+      -fx-font-size:30px;
+
+      -fx-background-radius: 20px;
+      -fx-background-image: url("OscuroMetal.jpg");
+
+}
+
+/*botones lateral iconos ---------------------------------------------*/
+
+#reproductor-buton-icon{
+    -fx-icon-code: mdi2a-amplifier;
+    -fx-icon-size: 40px;
+    -fx-icon-color	: black;
+
+}
+
+#lista-buton-icon{
+    -fx-icon-code: mdi2p-playlist-music;
+    -fx-icon-size: 40px;
+        -fx-icon-color	: black;
+    }
+
+#favoritos-buton-icon{
+        -fx-icon-code:mdi2c-cards-heart;
+        -fx-icon-size: 40px;
+            -fx-icon-color	: black;
+      }
+
+#ayuda-buton-icon{
+        -fx-icon-code: mdi2h-help;
+        -fx-icon-size: 40px;
+            -fx-icon-color	: black;
+      }
+
+#salir-buton-icon{
+        -fx-icon-code:  mdi2e-exit-run;
+       -fx-icon-size: 40px;
+           -fx-icon-color	: black;
+      }
+
+/*botones reproductor abajo ----------------------------------------------------*/
+
+#buttonClass{
+
+
+       -fx-text-align: left;
+       -fx-text-fill:black;
+       -fx-border-color:#262524;
+       -fx-border-width: 3px;
+       -fx-font-size:3px;
+       -fx-text-align: start;
+       -fx-background-image: url("metal.jpg");
+      -fx-prefer-height: 5px;
+      -fx-font-size:3px;
+}
+
+
+#buttonClass:hover{
+
+                -fx-text-align: left;
+                -fx-text-fill:black;
+                -fx-border-color:#262524;
+                -fx-border-width: 3px;
+                -fx-font-size:3px;
+                -fx-text-align: start;
+                -fx-background-image: url("metal.jpg");
+               -fx-prefer-height: 5px;
+               -fx-font-size:3px;
+          -fx-background-image: url("OscuroMetal.jpg");
+}
+
+#buttonClass:selected{
+
+                -fx-text-align: left;
+                -fx-text-fill:black;
+                -fx-border-color:#262524;
+                -fx-border-width: 3px;
+                -fx-font-size:3px;
+                -fx-text-align: start;
+                -fx-background-image: url("metal.jpg");
+               -fx-prefer-height: 5px;
+               -fx-font-size:3px;
+          -fx-background-image: url("OscuroMetal.jpg");
+}
+
+#icono-boton-abajo-anterior{
+    -fx-icon-code: mdi2a-arrow-left-bold-circle;
+   -fx-icon-size: 20px;
+       -fx-icon-color	: black;
+}
+
+#icono-boton-abajo-play {
+    -fx-icon-code:	mdi2p-play-circle;
+    -fx-icon-size: 20px;
+        -fx-icon-color	: black;
+}
+
+#icono-boton-abajo-stop{
+    -fx-icon-code:	mdi2s-stop-circle;
+    -fx-icon-size: 20px;
+        -fx-icon-color	: black;
+}
+
+#icono-boton-abajo-siguiente{
+    -fx-icon-code: mdi2a-arrow-right-bold-circle	;
+    -fx-icon-size: 20px;
+    -fx-icon-color	: black;
+}
+
+
+/*botones reproductor CENTRALES ----------------------------------------------------*/
+
+
+#botonReproductorCentral{
+    -fx-background-color:#9E9C9B;
+    -fx-border-color:#262524;
+    -fx-border-width: 3px;
+    -fx-padding: 21px 20px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+#botonReproductorCentral: hover{
+    -fx-background-color:#8C8A89;
+    -fx-border-color:#262524;
+    -fx-border-width: 3px;
+    -fx-padding: 21px 20px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+
+
+#botonReproductorBack{
+
+    -fx-background-color: grey;
+
+}
+#botonReproductorPlay{
+
+-fx-font-size: 5px;
+-fx-background-color: grey;
+}
+#botonReproductorNext{
+
+-fx-font-size: 5px;
+-fx-background-color: grey;
+}
+#botonReproductorBack{
+
+-fx-font-size: 5px;
+-fx-background-color: grey;
+
+}
+
+
+/* pantalla de reproductor*/
+
+#vistaReproductorS{
+    -fx-background-image: url("maderaFondo.jpg");
+    -fx-border-color:#664523;
+    -fx-border-width: 6px;
+    -fx-padding:25px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+
+}
+
+#reproductor{
+-fx-background-image: url("reproductor.png");
+-fx-background-size:350px;
+-fx-background-repeat: no-repeat;
+-fx-background-position: center;
+ -fx-padding : 10xp;
+ -fx-border-color:#44444A;
+  -fx-border-width: 3px;
+    -fx-border-radius: 10px;
+      -fx-background-radius: 10px;
+}
+
+#iconoBotonAnterior{
+    -fx-icon-code: mdi2a-arrow-left-bold-circle;
+    -fx-icon-size: 30px;
+    -fx-icon-color	: #3465E0;
+}
+#play-button-icon {
+    -fx-icon-code:	mdi2p-play-circle;
+    -fx-icon-size: 30px;
+    -fx-icon-color	: #3465E0;
+
+}
+#stop-button-icon{
+    -fx-icon-code:	mdi2s-stop-circle;
+    -fx-icon-size: 30px;
+    -fx-icon-color	: #3465E0;
+}
+#next-buton-icon{
+    -fx-icon-code: mdi2a-arrow-right-bold-circle	;
+    -fx-icon-size: 30px;
+    -fx-icon-color	: #3465E0;
+}
+#caset{
+
+    -fx-background-image: url("caset2.png");
+    -fx-background-size:200px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: top;
+     -fx-padding:25px;
+
+
+
+}
+
+
+/* pantalla de lista y faboritos*/
+
+#listaCancionesS{
+
+   -fx-background-image: url("maderaFondo.jpg");
+   -fx-border-color:#664523;
+   -fx-border-width: 6px;
+}
+#listaFavoritosS{
+   -fx-background-image: url("maderaFondo.jpg");
+   -fx-border-color:#664523;
+       -fx-border-width: 6px;
+}
+
+/* pantallas*/
+
+
+#vistaAyudaS{
+    -fx-background-image: url("folio.jpg");
+    -fx-background-size: 100%;
+    -fx-border-color:#664523;
+    -fx-border-width: 6px;
+    -fx-padding:25px;
+}
+#textoAyuda{
+
+ -fx-padding:25px;
+ -fx-font-family: "Segoe UI Semibold";
+ -fx-line-spacing: 1.5;
+}
+
+
+
+/*lista de canciones*/
+
+#boton-lista{
+        -fx-background-color:#9E9C9B;
+        -fx-border-color:#262524;
+        -fx-border-width: 3px;
+        -fx-border-radius: 10px;
+        -fx-background-radius: 10px;
+
+
+ }
+
+ #boton-lista:hover{
+         -fx-background-color:#73737D;
+         -fx-border-color:#262524;
+         -fx-border-width: 3px;
+         -fx-border-radius: 10px;
+         -fx-background-radius: 10px;
+
+
+ }
+
+
+#icono-buscar{
+-fx-icon-code:	mdi2c-clipboard-text-search;
+    -fx-icon-size: 30px;
+    -fx-icon-color	: #3465E0;
+}
+
+#hBox{
+
+
+    -fx-padding: 10px;
+    -fx-border-color:#664523;
+    -fx-border-width:4px;
+    -fx-border-radius: 10px;
+
+    -fx-alignment : center;
+    -fx-spacing : 10px;
+    -fx-background-radius: 10px;
+    }
+
+
+#busqueda{
+    -fx-border-color:#664523;
+    -fx-border-width:4px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-font-family: "Segoe UI Semibold";
+}
+
+
+

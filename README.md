@@ -1,2 +1,2 @@
-# Consumir-una-api-de-canciones-
-Reproductor con JavaFX  obteniendo las canciones de una api
+# Reproductor Java FX 
+Reproductor con JavaFX con EsceneBuilder obteniendo las canciones de una ApiRes
